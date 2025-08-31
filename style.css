@@ -1,0 +1,60 @@
+html, body { height: 100%; }
+body { 
+  margin: 0;             
+  padding-top: 70px;
+  font-family: "Raleway", sans-serif;
+}
+.navbar { 
+  margin-bottom: 0;       
+  border: 0;             
+}
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0px;
+}
+
+.navbar-center > li {
+    display: inline-block;
+    float: none;
+}
+
+.banner-img-wrap {
+    position: relative;
+    margin-top: 0px;
+    top: -20px;
+  }
+  .banner-img {
+    display: block;
+    width: 100%;
+    height: auto;           
+  }
+  .banner-img-wrap a {
+    position: absolute;
+    top: 85%; left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    padding: 12px 48px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: large;
+  }
+
+  .banner-img-wrap a:hover {
+    background: white;
+    color: black;
+}
+.best {
+    margin-top: 64px;
+    text-align: center;
+}
+
+.best h1{
+    padding-bottom: 20px;
+}
+  
+.like {
+    font-size: 1.5rem;
+  }
